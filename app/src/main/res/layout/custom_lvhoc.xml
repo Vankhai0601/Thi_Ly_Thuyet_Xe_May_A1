@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1"
+                android:layout_weight="0.03"
+                android:textColor="#fb0505"
+                android:textStyle="bold"
+                android:textSize="35px"
+                android:layout_marginTop="5dp"
+                android:text="textview1" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView"
+                android:layout_gravity="center_horizontal"
+                android:background="@mipmap/ic_launcher"
+                android:layout_marginTop="20px" />
+
+            <Button
+                android:layout_width="114dp"
+                android:layout_height="30dp"
+                android:id="@+id/btnKetqua"
+                android:layout_marginTop="15dp"
+                android:text="Xem đáp án"
+                android:textColor="#fa0707"
+                android:background="@android:drawable/button_onoff_indicator_off" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txthienthi"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.03"
+                android:layout_marginTop="-20dp" />
+
+            <TextView
+                android:layout_width="113dp"
+                android:layout_height="25dp"
+                android:id="@+id/textView2"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginTop="-20dp"
+                android:layout_marginLeft="0dp"
+                android:gravity="center" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

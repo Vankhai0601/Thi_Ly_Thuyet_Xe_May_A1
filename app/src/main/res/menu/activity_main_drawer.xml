@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home"
+            android:title="Trang Chủ" />
+    </group>
+
+    <item android:title="Phần Nội dung">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/Thi"
+                    android:icon="@drawable/thi"
+                    android:title="Thi Thử" />
+                <item
+                    android:id="@+id/Onthi"
+                    android:icon="@drawable/onic"
+                    android:title="Ôn Thi" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Mẹo Thi Nhanh">
+    <menu>
+        <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/Meothibb"
+                android:icon="@drawable/hoc"
+                android:title="Mẹo Thi Biển Báo" />
+            <item
+                android:id="@+id/Meothish"
+                android:icon="@drawable/hoc"
+                android:title="Mẹo Thi Sa Hình" />
+            <item
+            android:id="@+id/Meothilt"
+            android:icon="@drawable/hoc"
+            android:title="Mẹo Thi Lý Thuyết" />
+            <item
+                android:id="@+id/demo"
+                android:icon="@drawable/hoc"
+                android:title="demo" />
+
+
+        </group>
+        </menu>
+    </item>
+
+</menu>

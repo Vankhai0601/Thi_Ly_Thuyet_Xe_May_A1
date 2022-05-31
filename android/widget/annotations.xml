@@ -1,0 +1,10 @@
+<root>
+    <item
+        name='android.widget.AdapterView android.widget.AdapterView.OnItemSelectedListener getOnItemSelectedListener()'>
+        <annotation name='java.lang.annotation.Deprecated' />
+    </item>
+    <item
+        name='android.widget.AdapterView void setOnItemSelectedListener(android.widget.AdapterView.OnItemSelectedListener) 0'>
+      <annotation name='java.lang.annotation.Deprecated' />
+    </item>
+</root>

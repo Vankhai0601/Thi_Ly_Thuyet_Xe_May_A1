@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="sinhvienit37.com.thi_ly_thuyet_xe_may_a1_full.Slide.Hienthiketqua"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Tính điểm"
+        android:id="@+id/textView3"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textColor="#fefefe"
+        android:layout_weight="0.04"
+        android:background="#586bfb"
+        android:gravity="center"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.04"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/abc_edit_text_material">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Câu Đúng    :"
+            android:id="@+id/tv1"
+            android:textStyle="bold"
+            android:textColor="#0b17f7"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:textIsSelectable="false" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:id="@+id/tvDung"
+            android:layout_marginLeft="80dp"
+            android:textStyle="bold"
+            android:textColor="#f70b32"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.04"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/abc_edit_text_material">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Câu Sai        :"
+            android:id="@+id/tv2"
+            android:textStyle="bold"
+            android:textColor="#0b17f7"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:id="@+id/tvSai"
+            android:layout_marginLeft="80dp"
+            android:textStyle="bold"
+            android:textColor="#f70b32"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.04"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/abc_edit_text_material">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chưa trả lời :"
+            android:id="@+id/tv3"
+            android:textStyle="bold"
+            android:textColor="#0b17f7"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:id="@+id/tvChuatraloi"
+            android:layout_marginLeft="80dp"
+            android:textStyle="bold"
+            android:textColor="#f70b32"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.04"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/abc_edit_text_material">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tổng điểm  :"
+            android:id="@+id/tv4"
+            android:textStyle="bold"
+            android:textColor="#0b17f7"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:id="@+id/tvtongdiem"
+            android:layout_marginLeft="80dp"
+            android:textStyle="bold"
+            android:textColor="#f70b32"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.04"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/abc_edit_text_material" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kết quả        :"
+            android:id="@+id/txtketqua"
+            android:textStyle="bold"
+            android:textColor="#0b17f7"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đạt"
+            android:id="@+id/tvKetqua"
+            android:layout_marginLeft="80dp"
+            android:textStyle="bold"
+            android:textColor="#f70b32"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.04"
+        android:layout_marginTop="10dp"
+        android:weightSum="1">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="Thoát"
+            android:id="@+id/btnThoat"
+            android:textStyle="bold"
+            android:textColor="#f70b32"
+            android:textSize="20dp"
+            android:layout_weight="0.73" />
+
+    </LinearLayout>
+
+</LinearLayout>
